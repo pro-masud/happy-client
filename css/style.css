@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'GeoSlab703 Md BT';
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+input:focus,textarea:focus,button:focus{
+    outline: none;
+}
+
+
+/* service setion styling start */
+
+.section-padding{
+    padding: 80px 0;
+    background-color: #F9F9F8;
+}
+
+
+.section-title{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+
+.section-title h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.head-divider span{
+    display: inline-block;
+    height: 5px;
+    width: 80px;
+    background-color: #9DB45F;
+    border-radius: 3px;
+}
+
+.head-divider span.back-divider{
+    width: 40px;
+    margin: 0 4px;
+    background-color: #000;
+}
+
+
+
+/* owl-carousl controls button styling here */
+
+.clients-single-item{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 10px;
+    position: relative;
+}
+
+.client-content p{
+    font-size: 16px;
+    font-style: italic;
+    line-height: 20px;
+    color: #939393;
+}
+
+.client-content h2{
+    font-size: 24px;
+    line-height: 25px;
+    font-weight: 700;
+    margin: 5px 0;
+}
+
+.client-content h5{
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 500;
+    margin: 5px 0;
+}
+
+.happy-client .owl-controls{
+    margin-top: 60px;
+}
+
+.happy-client .owl-controls .owl-pagination{
+    text-align: center;
+}
+
+.happy-client .owl-controls .owl-pagination div{
+    display: inline-block;
+    width: 20px;
+    height: 5px;
+    background-color: #9DB45F;
+    margin: 0 5px;
+    border-radius: 4px;
+    transition: .4s;
+}
+
+.happy-client .owl-controls .owl-pagination div.active{
+    width: 30px;
+    background-color: #000;
+}
+
+.client-content{
+    margin-left: 50px;
+}
+
+
+.happy-client-container .clients-single-item:before{
+    font-family: fontAwesome;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    content: "\f10d";
+    width: 40%;
+    height: 100%;
+    line-height: 30px;
+    margin-top: -15px;
+    font-size: 25px;
+    color: #9DB45F;
+}
+
+.happy-client-container .clients-single-item:after{
+    position: absolute;
+    top: 10px;
+    left: 55px;
+    width: 1px;
+    height: 90%;
+    content: "";
+    background-color: #9DB45F;
+}
